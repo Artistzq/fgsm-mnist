@@ -95,7 +95,7 @@ epsilon选取 `0.2, 0.25, 0.3, 0.35, 0.4, 0.5`结果：
 几个生成的对抗样本，详见[笔记本](fgsm.ipynb)  
 ![avatar](/examples.png)
 
-### 贡献人员
+## 贡献人员
 
 [@Yao-GitHub](https://github.com/Artistzq)([Gitee](https://gitee.com/devezq))
 
