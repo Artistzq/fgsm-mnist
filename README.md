@@ -2,7 +2,31 @@
 
 [![](https://img.shields.io/badge/%E4%B8%BB%E9%A1%B5-yzq/fgsm-orange)](https://github.com/Artistzq/fgsm-mnist)
 
-一个使用FGSM对抗攻击算法，攻击MNIST手写数字识别，并生成对抗样本的小实验。
+一个使用FGSM对抗攻击算法，攻击MNIST手写数字识别，并生成对抗样本的小实验。不附带数据集，完整目录如下：
+
+```
+fgsm_mnist
+├─ .gitignore
+├─ LICENSE
+├─ README.md
+├─ data
+│  └─ MNIST
+│     ├─ processed
+│     │  ├─ test.pt
+│     │  └─ training.pt
+│     └─ raw
+│        ├─ t10k-images-idx3-ubyte
+│        ├─ t10k-images-idx3-ubyte.gz
+│        ├─ t10k-labels-idx1-ubyte
+│        ├─ t10k-labels-idx1-ubyte.gz
+│        ├─ train-images-idx3-ubyte
+│        ├─ train-images-idx3-ubyte.gz
+│        ├─ train-labels-idx1-ubyte
+│        └─ train-labels-idx1-ubyte.gz
+├─ examples.png
+├─ fgsm.ipynb
+└─ model.pth
+```
 
 ## 训练
 神经网络模型结构如下：
