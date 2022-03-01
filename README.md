@@ -101,4 +101,4 @@ epsilon选取 `0.2, 0.25, 0.3, 0.35, 0.4, 0.5`结果：
 
 ## 开源协议
 
-[MIT](LICENSE) © Yao
+[GPL](LICENSE) © Yao
